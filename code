@@ -1,0 +1,6 @@
+<input type="text" value="hi" id="myText">
+<div id="mydiv">....</div>
+<input type="button" value='in-out" onClick="{
+myValue=document.getElementById('myText').value
+document.getElementById('myDiv').innerHTML=myValue
+}">
